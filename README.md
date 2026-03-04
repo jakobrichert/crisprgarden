@@ -2,14 +2,19 @@
 
 Open-source platform for plant gene editing. Design guide RNAs, track experiments, follow protocols, and share results with the community.
 
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/homepage-hero.png)
 
 ## Features
 
 ### sgRNA Designer
 Design CRISPR guide RNAs for any plant gene. Supports SpCas9, Cas12a/Cpf1, and 4 other Cas proteins. On-target scoring, off-target analysis (MIT + CFD), primer design, and interactive visualizations.
 
-![Designer](screenshots/designer.png)
+![Designer - Guide Results](screenshots/designer-results.png)
+![Designer - Guide Ranking Table](screenshots/designer-guide-table.png)
+![Designer - Cut Site Visualization](screenshots/designer-cut-site.png)
+![Designer - 3D DNA Viewer](screenshots/designer-3d-viewer.png)
+![Designer - Off-Target Analysis](screenshots/designer-offtargets.png)
+![Designer - Primer Design](screenshots/designer-primers.png)
 
 ### Genome Browser
 Search genes across all plant species via Ensembl Plants. Fetch coding sequences and pipe directly into the guide designer.
@@ -19,18 +24,26 @@ Search genes across all plant species via Ensembl Plants. Fetch coding sequences
 ### Learn How CRISPR Works
 Interactive 3D step-through of the CRISPR-Cas9 mechanism — from PAM recognition to double-strand break and repair.
 
-![Learn](screenshots/learn-crispr.png)
+![Learn - 3D Mechanism](screenshots/learn-crispr-3d.png)
+![Learn - PAM Recognition](screenshots/learn-crispr-pam.png)
+![Learn - Delivery Methods](screenshots/learn-delivery-methods.png)
 
 ### Protocol Library
 9 detailed protocols with step-by-step instructions, reagent lists, species-specific notes, troubleshooting, and interactive 3D visualizations for each technique.
 
-![Protocols](screenshots/protocols.png)
-![Protocol Detail](screenshots/protocol-detail.png)
+![Protocols Grid](screenshots/protocols-grid.png)
+![Protocol - Agrobacterium 3D](screenshots/protocol-agrobacterium-3d.png)
+![Protocol - DNA Extraction 3D](screenshots/protocol-dna-extraction-3d.png)
+![Protocol - Biolistics 3D](screenshots/protocol-biolistics-3d.png)
+![Protocol - Steps](screenshots/protocol-agrobacterium-steps.png)
 
 ### CRISPR Wizard
 Crop-specific step-by-step guides. Select your plant, pick a target gene, choose a delivery method, get media recipes, and order reagents.
 
-![Wizard](screenshots/wizard.png)
+![Wizard - Species Selection](screenshots/wizard-species.png)
+![Wizard - Tomato](screenshots/wizard-tomato.png)
+![Wizard - Target Genes](screenshots/wizard-tomato-targets.png)
+![Wizard - Media Recipes](screenshots/wizard-tomato-media.png)
 
 ### Experiment Tracker
 Log CRISPR experiments across generations. Track phenotypes, genotyping results, and zygosity.
@@ -40,7 +53,13 @@ Log CRISPR experiments across generations. Track phenotypes, genotyping results,
 ### Community
 Share experiments, discuss methods, and learn from other plant breeders.
 
-![Community](screenshots/community.png)
+![Community](screenshots/community-feed.png)
+
+### Dark Mode
+
+![Homepage Dark](screenshots/homepage-dark.png)
+![Designer Dark](screenshots/designer-dark.png)
+![Learn Dark](screenshots/learn-crispr-dark.png)
 
 ## Supported Species
 
