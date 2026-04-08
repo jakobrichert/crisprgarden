@@ -16,7 +16,7 @@
     "@types/three": "^0.183.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "drizzle-orm": "^0.45.1",
+    "drizzle-orm": "^0.45.2",
     "hono": "^4.12.5",
     "lucide-react": "^0.577.0",
     "molstar": "^5.7.0",
